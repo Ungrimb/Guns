@@ -12,6 +12,9 @@ namespace Guns
             var soldier2 = new Soldado(new Arsenal());
             soldier1.Attack("soldado2", weapons[0]);
             soldier2.Attack("soldado1", weapons[1]);
+
+            var tank1 = new Tanque(new Arsenal());
+            tank1.Attack("Soldado1", weapons[2]);
         }
     }
 }
